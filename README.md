@@ -50,14 +50,25 @@
 # langkah 2 Pertanyaan dan Tugas Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halaman memiliki template tampilan yang seragam.
   #  kita buat file dahulu dengan nama header.php
         <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <link href="style.css" rel="stylesheet" type="text/css" />
-            <title>Data Barang</title>
-        </head>
-        <body>
-        <div class="container">
+                  <html lang="en">
+                  <head>
+                    <meta charset="UTF-8">
+                    <title>Contoh Modularisasi</title>
+                    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+                  </head>
+                  <body>
+                    <div class="container">
+                      <header>
+                        <h1>Modularisasi Menggunakan Require</h1>
+                        <nav>
+                          <a href="home.php">Home</a>
+                          <a href="about.php">Tentang</a>
+                          <a href="kontak.php">Kontak</a>
+                        </nav>
+                      </header>
+                    </div>
+                  </body>
+                  </html>
 
 # lalu buat file dengan nama footer.php
         </div> <!-- Menutup div.container -->
@@ -121,9 +132,15 @@
         <?php include('footer.php'); ?>
         </body>
         </html>
-        
-  ![image](https://github.com/user-attachments/assets/793823ae-d727-43a5-a963-191e14d725cd)
-  ![image](https://github.com/user-attachments/assets/f96ab66a-d866-4280-bc48-20327c9ea73a)
 
+![image](https://github.com/user-attachments/assets/5777e01b-eee0-4e43-b65b-b45f4982712b)
+![image](https://github.com/user-attachments/assets/156fb587-bd29-4f37-8e37-79bb39ab1909)
+![image](https://github.com/user-attachments/assets/163a5182-2e59-4650-9bb6-80cab3caa1c5)
+
+
+
+
+        
+ 
 
         
