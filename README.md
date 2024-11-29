@@ -78,7 +78,8 @@
         </body>
         </html>
 
-# lalu tambahkan <?php include('header.php'); ?> dan <?php include('footer.php'); ?>    seperti contoh code di bawah ini
+# lalu tambahkan 
+                  <?php include('header.php'); ?> dan <?php include('footer.php'); ?>    seperti contoh code di bawah ini
 
 
             <?php
